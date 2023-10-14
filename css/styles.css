@@ -9,6 +9,9 @@
 body {
   font-family: "Roboto";
 }
+.list {
+  list-style: none;
+}
 .logo {
   color: var(--black-color);
   font-family: Raleway;
@@ -116,6 +119,4 @@ body {
 .footer-address a:first-child {
   color: var(--white-color);
 }
-.list {
-  list-style: none;
-}
+
