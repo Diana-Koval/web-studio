@@ -29,8 +29,8 @@ body {
 }
 
 .nav-item-link {
-    text-decoration: none;
-    color: var(--add-color);  
+  text-decoration: none;
+  color: var(--add-color);
 }
 
 .nav-item-link:hover {
@@ -120,3 +120,29 @@ body {
   color: var(--white-color);
 }
 
+/* Porfolio */
+
+.sections-item-btn {
+  color: var(--add-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: 0.48px;
+  border: none;
+}
+.sections-item-btn:hover {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.content-item-title {
+  color: var(--add-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 1.08px;
+}
+.content-item-text {
+  color: var(--text-color);
+  line-height: 1.875;
+  letter-spacing: 0.48px;
+}
