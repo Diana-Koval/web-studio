@@ -92,11 +92,12 @@ img {
 .nav-item-link:hover {
   color: var(--accent-color);
 }
+.address {
+  margin-left: auto;
+}
 .address-list {
   display: flex;
   gap: 50px;
-  /* margin-left: auto; */
-  margin-left: 344px;
 }
 .address-link {
   color: var(--text-color);
