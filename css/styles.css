@@ -139,6 +139,8 @@ img {
   text-align: center;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 10px 32px;
+  border-radius: 4px;
+  border: none;
 }
 .hero-btn:hover,
 .hero-btn:focus {
