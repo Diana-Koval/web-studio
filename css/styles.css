@@ -112,11 +112,13 @@ img {
   color: var(--accent-color);
 }
 .hero {
-  background-color: var(--background-color);
   padding-top: 200px;
   padding-bottom: 200px;
-}
-.hero .container {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero_img1.jpg);
   text-align: center;
 }
 .hero-title {
@@ -214,9 +216,6 @@ img {
   background-color: #ffffff;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-}
-.team-item-link {
-  display: block;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .work-title,
@@ -307,8 +306,11 @@ img {
   border-color: #eee;
   flex-basis: calc((100% - 60px) / 3);
 }
-.projects-list-item:hover,
-.projects-list-item:focus {
+.projects-item-link {
+  display: block;
+}
+.projects-item-link:hover,
+.projects-item-link:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
