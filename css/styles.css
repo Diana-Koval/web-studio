@@ -332,15 +332,15 @@ img {
   line-height: 1.71;
   letter-spacing: 0.42px;
 }
+.footer-address-item:first-child .footer-address-link {
+  color: var(--white-color);
+}
 .footer-address-link:hover,
 .footer-address-link:focus {
  color: var(--accent-color);
 }
 .footer-address-item {
   margin-bottom: 9px;
-}
-.footer-address-link:first-child {
-  color: var(--white-color);
 }
 .footer-soc-title {
   color: #fff;
