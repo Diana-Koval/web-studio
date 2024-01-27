@@ -486,11 +486,18 @@ img {
   margin-bottom: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding-left: 42px;
+  outline: none;
+}
+.modal-form-input:hover, .modal-form-input:focus {
+  border-color: var(--accent-color);
 }
 .modal-label-svg {
   position: absolute;
   bottom: 21px;
   left: 12px;
+}
+.modal-form-input:hover + .modal-label-svg, .modal-form-input:focus + .modal-label-svg {
+  fill: var(--accent-color);
 }
 .modal-form-textarea {
   color: var(--text-color);
@@ -503,6 +510,9 @@ img {
   height: 120px;
   margin-bottom: 25px;
   border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.modal-form-textarea:hover, .modal-form-textarea:focus {
+  border-color: var(--accent-color);
 }
 .modal-form-checkbox {
   width: 16px;
