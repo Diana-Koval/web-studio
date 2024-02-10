@@ -91,13 +91,13 @@ img {
   color: var(--accent-color);
 }
 .current::after {
-  content: '';
+  bottom: -1px;
+  content: "";
   display: block;
   height: 4px;
   width: 105%;
   background-color: var(--accent-color);
   position: absolute;
-  bottom: 0;
   border-radius: 2px;
 }
 .nav-item-link {
@@ -436,7 +436,8 @@ img {
   right: 28px;
   fill: var(--white-color);
 }
-.footer-form-btn:hover, .footer-form-btn:focus {
+.footer-form-btn:hover,
+.footer-form-btn:focus {
   cursor: pointer;
   opacity: 0.8;
 }
@@ -545,15 +546,14 @@ img {
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin: 20px 12px 0px 11px;
+  margin-top: 20px;
+  margin-bottom: 30px;
   color: #757575;
   font-size: 14px;
 }
 .modal-form-checkbox {
   width: 16px;
   height: 15px;
-  margin-bottom: 30px;
-  margin-left: 12px;
 }
 .modal-label-link {
   color: var(--accent-color);
@@ -617,8 +617,7 @@ img {
   border: 1px solid;
   border-color: #eee;
   flex-basis: calc((100% - 60px) / 3);
-  position: relative;
-  overflow: hidden;
+
 }
 .projects-item-link {
   display: block;
@@ -628,18 +627,22 @@ img {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
-
+.projects-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
 .projects-overlay {
   position: absolute;
   top: 0;
   left: 0;
   background-color: rgba(39, 124, 243, 0.82);
   width: 100%;
-  height: 294px;
+  height: 100%;
   transform: translateX(-100%);
   transition: transform 250ms ease;
 }
-.projects-list-item:hover .projects-overlay, .projects-list-item:focus .projects-overlay {
+.projects-list-item:hover .projects-overlay,
+.projects-list-item:focus .projects-overlay {
   transform: translateY(0%);
 }
 .projects-overlay-text {
