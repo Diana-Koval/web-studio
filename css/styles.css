@@ -91,7 +91,7 @@ img {
 	color: var(--accent-color);
 }
 .current::after {
-	bottom: -1px;
+	bottom: 0;
 	content: "";
 	display: block;
 	height: 4px;
