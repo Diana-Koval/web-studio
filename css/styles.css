@@ -104,6 +104,7 @@ img {
 	color: var(--add-color);
 	position: relative;
 	padding: 32px 0;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-item-link:hover {
 	color: var(--accent-color);
@@ -118,6 +119,7 @@ img {
 .address-link-svg {
 	fill: var(--text-color);
 	margin-right: 10px;
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link {
 	color: var(--text-color);
@@ -127,6 +129,7 @@ img {
 	letter-spacing: 0.28px;
 	display: flex;
 	align-items: center;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover {
 	color: var(--accent-color);
@@ -165,6 +168,7 @@ img {
 	padding: 10px 32px;
 	border-radius: 4px;
 	border: none;
+	transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -289,6 +293,7 @@ img {
 	padding: 12px;
 	display: flex;
 	border-radius: 50%;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-link:hover,
 .team-soc-link:focus {
@@ -296,6 +301,7 @@ img {
 }
 .team-soc-svg {
 	fill: #afb1b8;
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-link:hover .team-soc-svg,
 .team-soc-link:focus .team-soc-svg {
@@ -323,11 +329,13 @@ img {
 }
 .customers-item-svg {
 	fill: #afb1b8;
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-item-link {
 	padding: 16px 32px;
 	border: #afb1b8 solid 1px;
 	border-radius: 4px;
+	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-item-link:hover,
 .customers-item-link:focus {
@@ -357,6 +365,7 @@ img {
 	font-style: normal;
 	line-height: 1.71;
 	letter-spacing: 0.42px;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-address-item:first-child .footer-address-link {
 	color: var(--white-color);
@@ -387,6 +396,7 @@ img {
 	display: flex;
 	border-radius: 50%;
 	background-color: rgba(255, 255, 255, 0.1);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-soc-svg {
 	fill: var(--white-color);
@@ -425,6 +435,7 @@ img {
 	border: none;
 	position: relative;
 	width: 200px;
+	transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-btn-icon {
 	position: absolute;
@@ -476,6 +487,9 @@ img {
 	top: 8px;
 	right: 8px;
 }
+.modal-close-svg {
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .modal-close-button:hover .modal-close-svg,
 .modal-close-button:focus .modal-close-svg {
 	fill: var(--accent-color);
@@ -506,6 +520,7 @@ img {
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	padding-left: 42px;
 	outline: none;
+	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-input:hover,
 .modal-form-input:focus {
@@ -515,6 +530,7 @@ img {
 	position: absolute;
 	bottom: 11px;
 	left: 12px;
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-input:hover + .modal-label-svg,
 .modal-form-input:focus + .modal-label-svg {
@@ -533,6 +549,7 @@ img {
 	height: 120px;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	margin-top: 4px;
+	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-textarea:hover,
 .modal-form-textarea:focus {
@@ -566,6 +583,7 @@ img {
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 	margin: 0 auto;
 	display: block;
+	transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-button:hover,
 .modal-form-button:focus {
@@ -595,6 +613,7 @@ img {
 	border: none;
 	background-color: #f5f4fa;
 	border-radius: 4px;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filters-item-btn:hover,
 .filters-item-btn:focus {
@@ -616,6 +635,7 @@ img {
 }
 .projects-item-link {
 	display: block;
+	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 .projects-item-link:hover,
 .projects-item-link:focus {
